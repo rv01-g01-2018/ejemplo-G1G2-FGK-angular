@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="appGrupo1">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/angular.js"></script>  
+    <script src="js/angular-sanitize.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-controller="primerControlador">
+   <form action="" id="miFrm">
+        <input class="inpstyle" type="text" ng-model="nombre" placeholder="Nombre">
+        <input class="inpstyle" type="text" ng-model="edad" placeholder="Edad">
+        <input class="inpstyle" type="text" ng-model="ultimoAnhoEst" placeholder="Ultimo grado cursado">
+        <input class="inpstyle" type="text" ng-model="encargado" placeholder="Encargado">   
+        <input id="radio" type="radio" ng-click="add()"> Seleccinar turno:
+        <render ng-show="plantilla"></render>
+   </form>
+    {{turno}} 
+    <script src="js/Controller.js"> </script>
+</body>
+</html>

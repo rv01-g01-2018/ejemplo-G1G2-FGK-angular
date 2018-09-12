@@ -1,0 +1,17 @@
+#miFrm{
+    width: 60%;
+    margin: 0 auto;
+}
+.inpstyle{
+    width: 100%;
+    margin-top: 20px;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+#radio{
+    margin-top:20px 
+}
